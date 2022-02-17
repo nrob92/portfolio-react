@@ -1,0 +1,87 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-body {
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.about-me-container {
+  display: flex;
+  max-width: 900px;
+transform: translateX(101%);
+  letter-spacing: 0;
+  margin: auto;
+  align-items: center;
+}
+
+.about-me-container.active {
+
+transform: translateX(0);
+transition: 1.5s;
+}
+
+.about-me {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 10px;
+}
+.about-me p,
+.about-me h2 {
+  margin: 0;
+}
+
+.img-container {
+  margin: 10px;
+  width: 40%;
+}
+
+.aboutme-img {
+  max-width: 175px;
+  height: 200px;
+  background-image: url(../img/nick.jpeg);
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.section-body h1 {
+  text-align: center;
+}
+
+.projects {
+  text-align: center;
+  margin: 30px auto;
+  box-shadow: 5px 5px 15px rgb(163, 163, 163);
+  border-radius: 5px;
+  max-width: 350px;
+  padding: 15px;
+}
+
+.projects p {
+  width: 70%;
+  margin: auto;
+}
+
+.projects button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #f5deb3;
+  cursor: pointer;
+}
+
+.projects button:hover {
+  background-color: #d1bd9b;
+}
+
+hr {
+  margin: 20px;
+}

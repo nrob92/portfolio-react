@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit&family=Poppins:wght@600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(26, 26, 26);
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
