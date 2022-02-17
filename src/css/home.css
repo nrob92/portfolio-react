@@ -138,6 +138,10 @@
 .mobile-menu-icon {
   display: none;
 }
+.nav-links-deactive {
+  color: transparent;
+  position: absolute;
+}
 
 @media screen and (max-width: 780px) {
   .nav-links {
