@@ -5,23 +5,20 @@
 
 .section-body {
   padding: 20px;
-  background-color: white;
-  color: black;
 }
 
 .about-me-container {
   display: flex;
   max-width: 900px;
-transform: translateX(101%);
+  transform: translateX(101%);
   letter-spacing: 0;
   margin: auto;
   align-items: center;
 }
 
 .about-me-container.active {
-
-transform: translateX(0);
-transition: 1.5s;
+  transform: translateX(0);
+  transition: 1.5s;
 }
 
 .about-me {
@@ -59,10 +56,11 @@ transition: 1.5s;
 .projects {
   text-align: center;
   margin: 30px auto;
-  box-shadow: 5px 5px 15px rgb(163, 163, 163);
+  box-shadow: 5px 5px 15px rgb(155, 155, 155);
   border-radius: 5px;
   max-width: 350px;
   padding: 15px;
+  background-color: #112240;
 }
 
 .projects p {
@@ -71,15 +69,9 @@ transition: 1.5s;
 }
 
 .projects button {
-  border: none;
   border-radius: 5px;
   padding: 5px 10px;
-  background-color: #f5deb3;
   cursor: pointer;
-}
-
-.projects button:hover {
-  background-color: #d1bd9b;
 }
 
 hr {

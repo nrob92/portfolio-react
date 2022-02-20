@@ -25,6 +25,7 @@ const Home = () => {
           <li>About Me</li>
           <li>Projects</li>
           <li>Contact</li>
+          <li className="resume">Resume</li>
         </ul>
       </nav>
 
@@ -42,23 +43,35 @@ const Home = () => {
         <li>About Me</li>
         <li>Projects</li>
         <li>Contact</li>
+        <li>Resume</li>
       </ul>
 
       <div
         className="main-body"
-        style={{ transform: `translatex(-${offsetY * 3}px)` }}
+        style={{ transform: `translatex(-${offsetY * 2}px)` }}
       >
         <div className="main-bio">
           <div className="main-bio-text">
+            <h3 className="animate__animated animate__bounceInDown">
+              Hi, my name is
+              <br />
+            </h3>
             <h2 className="animate__animated animate__bounceInDown">
-              Hi, <br /> Im Nick Robinson
+              Nick Robinson.
             </h2>
             <p className="animate__animated animate__bounceInDown">
-              Full Stack Web-Developer.
+              <div>
+                <big>Full Stack Web-Developer.</big>
+              </div>
+              <br />
+              <div className="home-bio">
+                I'm a software engineer specializing in building (and
+                occasionally designing) exceptional digital experiences.
+                Currently, I'm focused on building accessible, human-centered
+                products at
+              </div>
             </p>
-            <div className="animate__animated animate__bounceInDown">
-              <button className="animate__animated">Contact Me</button>
-            </div>
+            <button className="animate__bounceInDown">Contact Me</button>
           </div>
           <div className="icons">
             <img
