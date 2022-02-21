@@ -11,15 +11,23 @@ body {
 h1,
 h2,
 h3,
-li {
+a {
   color: #ccd6f6;
 }
-li {
+h2 {
+  font-size: clamp(25px, 5vw, 50px);
+}
+h3 {
+  font-size: clamp(10px, 8vw, 14px);
+}
+a {
   font-size: 13px;
+  text-decoration: none;
 }
 
 p {
   color: #8892b0;
+  font-size: clamp(12px, 5vw, 14px);
 }
 
 button {
@@ -27,8 +35,15 @@ button {
   border: 1px solid #64ffda;
   color: #64ffda;
   font-family: "Fira Code", monospace;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 10px;
+  transition: 0.4s ease;
 }
 
 button:hover {
   background-color: rgb(100, 255, 218, 0.3);
+}
+.main-container {
+  height: 100vh;
 }

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3,
+  faJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
 import "../src/css/home.css";
-import html from "./img/html.png";
-import css from "./img/css.png";
-import js from "./img/js.png";
-import react from "./img/react.png";
 
 const Home = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -12,23 +14,36 @@ const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
 
   const handleScroll = () => setOffsetY(window.pageYOffset);
-
+  /* slides home page to left */
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  /* looping through <a> to scroll from nav to section */
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    });
+  });
+
   return (
     <div className="home-container">
       <nav className="navbar">
         <ul className="nav-links">
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact</li>
-          <li className="resume">Resume</li>
+          <a href="#about">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#resume" className="resume">
+            Resume
+          </a>
         </ul>
       </nav>
-
       <button
         onClick={() => setIsMobile(!isMobile)}
         className="mobile-menu-icon"
@@ -40,10 +55,10 @@ const Home = () => {
         onClick={() => setIsMobile(!isMobile)}
         className={isMobile ? "nav-links-mobile" : "nav-links-deactive"}
       >
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Contact</li>
-        <li>Resume</li>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
       </ul>
 
       <div
@@ -71,29 +86,23 @@ const Home = () => {
                 products at
               </div>
             </p>
-            <button className="animate__bounceInDown">Contact Me</button>
+            <button className="animate__animated animate__bounceInDown">
+              Contact Me
+            </button>
           </div>
           <div className="icons">
-            <img
-              className="animate__animated animate__backInRight"
-              src={html}
-              alt=""
-            />
-            <img
-              className="animate__animated animate__backInRight"
-              src={css}
-              alt=""
-            />
-            <img
-              className="animate__animated animate__backInRight"
-              src={js}
-              alt=""
-            />
-            <img
-              className="animate__animated animate__backInRight"
-              src={react}
-              alt=""
-            />
+            <div className="animate__animated animate__backInRight">
+              <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
+            </div>
+            <div className="animate__animated animate__backInRight">
+              <FontAwesomeIcon icon={faCss3}></FontAwesomeIcon>
+            </div>
+            <div className="animate__animated animate__backInRight">
+              <FontAwesomeIcon icon={faJs}></FontAwesomeIcon>
+            </div>
+            <div className="animate__animated animate__backInRight">
+              <FontAwesomeIcon icon={faReact}></FontAwesomeIcon>
+            </div>
           </div>
         </div>
       </div>

@@ -10,15 +10,13 @@
 .about-me-container {
   display: flex;
   max-width: 900px;
-  transform: translateX(101%);
   letter-spacing: 0;
   margin: auto;
   align-items: center;
 }
 
-.about-me-container.active {
-  transform: translateX(0);
-  transition: 1.5s;
+.hidden {
+  visibility: hidden;
 }
 
 .about-me {
@@ -56,7 +54,7 @@
 .projects {
   text-align: center;
   margin: 30px auto;
-  box-shadow: 5px 5px 15px rgb(155, 155, 155);
+  box-shadow: 2px 2px 4px rgb(71, 71, 71);
   border-radius: 5px;
   max-width: 350px;
   padding: 15px;
@@ -67,13 +65,41 @@
   width: 70%;
   margin: auto;
 }
-
-.projects button {
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
+.projects-h2 {
+  text-align: center;
 }
 
 hr {
   margin: 20px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  margin: auto;
+  text-align: center;
+  max-width: 600px;
+  line-height: 20px;
+}
+.footer-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+  color: #a8b2d1;
+  font-family: "Fira Code", monospace;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.footer-a:hover {
+  color: #64ffda;
+}
+
+.footer-btn {
+  margin-top: 10px;
 }
