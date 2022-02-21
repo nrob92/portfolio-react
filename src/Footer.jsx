@@ -15,6 +15,7 @@ const Footer = () => {
       </div>
       <div>
         <a
+          target="_blank"
           href="https://github.com/nrob92?tab=repositories"
           className="footer-a"
         >

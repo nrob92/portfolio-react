@@ -63,7 +63,7 @@ const Home = () => {
 
       <div
         className="main-body"
-        style={{ transform: `translatex(-${offsetY * 2}px)` }}
+        style={{ transform: `translatex(-${offsetY * 1.5}px)` }}
       >
         <div className="main-bio">
           <div className="main-bio-text">
@@ -80,10 +80,8 @@ const Home = () => {
               </div>
               <br />
               <div className="home-bio">
-                I'm a software engineer specializing in building (and
+                I'm a Full Stack Software Engineer specializing in building (and
                 occasionally designing) exceptional digital experiences.
-                Currently, I'm focused on building accessible, human-centered
-                products at
               </div>
             </p>
             <button className="animate__animated animate__bounceInDown">

@@ -1,6 +1,17 @@
 .home-container {
   height: 100vh;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: #112240;
+  z-index: 10;
+
+  border-bottom: 1px solid rgba(100, 255, 218, 0.7);
+}
 
 .nav-bar {
   display: flex;
@@ -30,8 +41,6 @@
   text-decoration: none;
   padding: 5px 10px;
   margin: 0 10px;
-  cursor: pointer;
-  border-radius: 2px;
   transition: 0.4s ease;
 }
 
@@ -53,7 +62,7 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  height: 90%;
+  height: 100%;
   max-width: 900px;
 }
 
@@ -190,5 +199,8 @@
     cursor: pointer;
     border: none;
     transition: all 0.4s ease;
+  }
+  nav {
+    border: none;
   }
 }

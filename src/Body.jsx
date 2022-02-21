@@ -23,7 +23,7 @@ const Body = () => {
       if (window.scrollY >= 600) {
         setProjects(true);
       }
-      if (window.scrollY >= 1500) {
+      if (window.scrollY >= 1400) {
         setContact(true);
       }
     } else {
@@ -52,8 +52,6 @@ const Body = () => {
             : "hidden"
         }
       >
-        <Projects />
-        <Projects />
         <Projects />
       </div>
       <div className={contact ? "animate__animated animate__fadeIn" : "hidden"}>
