@@ -12,6 +12,8 @@
 
 .about-me-container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 900px;
   letter-spacing: 0;
   margin: auto;
@@ -19,7 +21,7 @@
 }
 
 .about-me {
-  width: 60%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -31,9 +33,11 @@
 .about-me h2 {
   margin: 0;
 }
+.about-me h2 {
+}
 
 .img-container {
-  width: 40%;
+  width: 300px;
 }
 
 .aboutme-img {
@@ -48,6 +52,26 @@
 
 .section-body h1 {
   text-align: center;
+}
+.technologies {
+  margin-top: 10px;
+  width: 200px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #64ffda;
+  font-family: "Fira Code", monospace;
+}
+.technologies span {
+  margin: 3px;
+}
+.technologies-1 {
+  display: flex;
+  flex-direction: column;
+}
+.technologies-2 {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Projects Section */
@@ -71,7 +95,6 @@
   padding: 15px;
   background-color: #112240;
   width: 400px;
-  height: 450px;
 }
 .projects h3 {
   margin-top: 0;
@@ -80,10 +103,12 @@
 }
 
 .projects p {
+  text-align: center;
   margin: auto;
+  font-size: 12px;
 }
 .projects hr {
-  margin: 20px;
+  margin: 10px;
 }
 video::-webkit-media-controls {
   display: none !important;
@@ -93,7 +118,7 @@ video::-webkit-media-controls {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60%;
+  height: 300px;
 }
 video {
   border-radius: 5px;
@@ -108,7 +133,9 @@ video {
 video:hover {
   position: absolute;
   width: 420px;
-  margin-top: 10px;
+}
+.projects hr {
+  margin: 20px;
 }
 
 /* Footer Section */
@@ -144,6 +171,54 @@ video:hover {
   margin-top: 10px;
 }
 
+/* Contact section */
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid rgba(100, 255, 218, 0.4);
+  background-color: #112240;
+}
+
+.contact-form input {
+  width: 200px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area {
+  display: flex;
+  margin: auto;
+  border-radius: 5px;
+  height: 100px;
+  padding: 10px;
+}
+
+.contact-form button {
+  text-align: start;
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 780px) {
   .projects {
     width: 350px;
@@ -160,5 +235,12 @@ video:hover {
     align-items: center;
     width: 350px;
     margin-top: 0;
+  }
+  .about-me-container {
+    text-align: center;
+  }
+
+  .technologies {
+    margin: auto;
   }
 }

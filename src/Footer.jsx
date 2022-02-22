@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../src/css/body.css";
 
 const Footer = () => {
@@ -11,7 +12,9 @@ const Footer = () => {
           is always open. Whether you have a question or just want to say hi,
           I'll try my best to get back to you!
         </p>
-        <button className="footer-btn">Say Hello</button>
+        <Link to={"/contact"}>
+          <button className="footer-btn">Say Hello</button>
+        </Link>
       </div>
       <div>
         <a

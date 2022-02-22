@@ -20,8 +20,10 @@ const Projects = () => {
           </video>
         </div>
         <p>
-          Crypto Currency Exchange Platform. user Authentication, stores user
-          data in Firebase.
+          Crypto Currency Exchange Platform.
+          <br /> User Authentication. <br /> Stores user data in Firebase.
+          <br />
+          Rest API.
         </p>
         <hr />
         <button>View Here</button>

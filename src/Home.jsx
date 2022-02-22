@@ -9,8 +9,6 @@ import {
 import "../src/css/home.css";
 
 const Home = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
   const [offsetY, setOffsetY] = useState(0);
 
   const handleScroll = () => setOffsetY(window.pageYOffset);
@@ -34,33 +32,6 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <nav className="navbar">
-        <ul className="nav-links">
-          <a href="#about">About Me</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a href="#resume" className="resume">
-            Resume
-          </a>
-        </ul>
-      </nav>
-      <button
-        onClick={() => setIsMobile(!isMobile)}
-        className="mobile-menu-icon"
-      >
-        <i className={isMobile ? "fas fa-times" : "fas fa-bars"}></i>
-      </button>
-
-      <ul
-        onClick={() => setIsMobile(!isMobile)}
-        className={isMobile ? "nav-links-mobile" : "nav-links-deactive"}
-      >
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#resume">Resume</a>
-      </ul>
-
       <div
         className="main-body"
         style={{ transform: `translatex(-${offsetY * 1.5}px)` }}
