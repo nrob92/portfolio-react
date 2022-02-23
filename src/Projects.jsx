@@ -7,6 +7,7 @@ const Projects = () => {
     <div className="projects-container">
       <div className="projects">
         <h3>Project One</h3>
+        <p className="project-title"> Crypto Currency Exchange Platform.</p>
         <p>Hover to Play</p>
         <div className="video-container">
           <video
@@ -19,13 +20,15 @@ const Projects = () => {
             Hover to play
           </video>
         </div>
-        <p>
-          Crypto Currency Exchange Platform.
-          <br /> User Authentication. <br /> Stores user data in Firebase.
+        <p className="project-tech">
+          <br />
+          User Authentication. <br /> Stores user data in Firebase.
           <br />
           Rest API.
           <br />
-          Chart JS
+          Chart JS.
+          <br />
+          Responsive UI/UX.
         </p>
         <hr />
 
@@ -35,6 +38,7 @@ const Projects = () => {
       </div>
       <div className="projects">
         <h3>Project Two</h3>
+        <p className="project-title"> Project two</p>
         <p>Hover to Play</p>
         <div className="video-container">
           <video
@@ -47,6 +51,7 @@ const Projects = () => {
             Hover to play
           </video>
         </div>
+        <br />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <hr />
         <button>View Here</button>

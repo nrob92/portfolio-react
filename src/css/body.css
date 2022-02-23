@@ -101,6 +101,10 @@
   margin-bottom: 12px;
   font-size: large;
 }
+.project-title {
+  color: #64ffda;
+  font-family: "Fira Code", monospace;
+}
 
 .projects p {
   text-align: center;
@@ -118,7 +122,7 @@ video::-webkit-media-controls {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 275px;
 }
 video {
   border-radius: 5px;
@@ -132,10 +136,10 @@ video {
 }
 video:hover {
   position: absolute;
-  width: 420px;
+  width: 400px;
 }
 .projects hr {
-  margin: 20px;
+  margin: 15px;
 }
 
 /* Footer Section */
@@ -224,7 +228,15 @@ video:hover {
 
 @media screen and (max-width: 780px) {
   .projects {
-    width: 350px;
+    width: 330px;
+  }
+
+  .projects p {
+    margin: auto;
+  }
+
+  .video-container {
+    height: 245px;
   }
   video {
     display: flex;
