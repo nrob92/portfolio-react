@@ -24,6 +24,8 @@ const Projects = () => {
           <br /> User Authentication. <br /> Stores user data in Firebase.
           <br />
           Rest API.
+          <br />
+          Chart JS
         </p>
         <hr />
         <button>View Here</button>

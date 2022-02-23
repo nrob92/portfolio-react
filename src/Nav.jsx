@@ -11,7 +11,7 @@ const Nav = () => {
         <ul className="nav-links">
           <a href="#about">About Me</a>
           <a href="#projects">Projects</a>
-          <a href="#contact">contact</a>
+          <a href="#contact">Contact</a>
           <a href="#resume" className="resume">
             Resume
           </a>

@@ -175,6 +175,7 @@ video:hover {
 
 .contact-container {
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,21 +185,22 @@ video:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
-  width: 50%;
+  min-height: 400px;
+  min-width: 350px;
   border-radius: 5px;
   border: 1px solid rgba(100, 255, 218, 0.4);
   background-color: #112240;
 }
 
 .contact-form input {
-  width: 200px;
+  width: 250px;
   border: none;
   padding: 10px;
   border-radius: 5px;
-  margin: 10px auto;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
+  outline: none;
 }
 
 .text-area {
@@ -207,6 +209,7 @@ video:hover {
   border-radius: 5px;
   height: 100px;
   padding: 10px;
+  outline: none;
 }
 
 .contact-form button {
