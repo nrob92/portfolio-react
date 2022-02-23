@@ -28,7 +28,10 @@ const Projects = () => {
           Chart JS
         </p>
         <hr />
-        <button>View Here</button>
+
+        <a target="blank" href="inthemoney.netlify.app">
+          <button>View Here</button>
+        </a>
       </div>
       <div className="projects">
         <h3>Project Two</h3>
