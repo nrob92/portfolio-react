@@ -1,6 +1,7 @@
 import React from "react";
 import "../src/css/body.css";
 import fastitm from "../src/videos/fastitm.mp4";
+import fastContact from "../src/videos/fastContact.mov";
 
 const Projects = () => {
   return (
@@ -47,12 +48,19 @@ const Projects = () => {
             onMouseOut={(e) => e.target.pause()}
           >
             {" "}
-            <source src={fastitm} type="video/mp4" />
+            <source src={fastContact} type="video/mp4" />
             Hover to play
           </video>
         </div>
-        <br />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <p>
+          Simple Contact API form.
+          <br />
+          GET POST PUT DELETE.
+          <br />
+          Responsive UI/UX.
+        </p>
+
         <hr />
         <button>View Here</button>
       </div>

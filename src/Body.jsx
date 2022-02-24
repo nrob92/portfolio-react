@@ -18,9 +18,9 @@ const Body = () => {
   }, []);
 
   const scrollEffect = () => {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 300) {
       setAboutMe(true);
-      if (window.scrollY >= 600) {
+      if (window.scrollY >= 700) {
         setProjects(true);
       }
       if (window.scrollY >= 1400) {

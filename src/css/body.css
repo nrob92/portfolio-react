@@ -179,25 +179,30 @@ video:hover {
 
 .contact-container {
   height: 100vh;
-
+  margin: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
+}
+.contact-container h1 {
+  text-align: center;
 }
 
 .contact-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 400px;
-  min-width: 350px;
+  width: 100%;
+  max-width: 450px;
+  padding: 15px 0;
+  margin: 20px;
   border-radius: 5px;
+
   border: 1px solid rgba(100, 255, 218, 0.4);
   background-color: #112240;
 }
 
 .contact-form input {
-  width: 250px;
+  width: 70%;
   border: none;
   padding: 10px;
   border-radius: 5px;
@@ -209,7 +214,7 @@ video:hover {
 
 .text-area {
   display: flex;
-  margin: auto;
+  margin: 20px auto;
   border-radius: 5px;
   height: 100px;
   padding: 10px;
@@ -219,11 +224,51 @@ video:hover {
 .contact-form button {
   text-align: start;
   width: 100px;
-  margin: auto;
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a8b2d1;
+  width: 100%;
   margin-top: 10px;
+}
+
+.contact-icons a {
+  font-size: 25px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.contact-icons a:hover {
+  color: #64ffda;
+}
+
+.contact-icons p {
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.4s ease;
+}
+.contact-icons p:hover {
+  color: #64ffda;
+}
+
+.phone-icon {
+  color: #a8b2d1;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 25px;
+  transition: 0.4s ease;
+}
+
+.phone-icon:hover {
+  color: #64ffda;
 }
 
 @media screen and (max-width: 780px) {
@@ -257,5 +302,13 @@ video:hover {
 
   .technologies {
     margin: auto;
+  }
+
+  .contact-container {
+    height: 90vh;
+  }
+
+  .contact-container h1 {
+    margin-top: 0;
   }
 }
