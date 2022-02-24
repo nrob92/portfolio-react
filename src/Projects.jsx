@@ -46,7 +46,7 @@ const Projects = () => {
         <p className="project-title"> Contact Form API.</p>
         <p>Hover to Play</p>
         <div className="video-container">
-          <video id="video">
+          <video id="video" playsinline autoplay loop muted>
             {" "}
             <source src={fastContact} type="video/mp4" />
             Hover to play
