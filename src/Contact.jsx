@@ -63,17 +63,23 @@ const Contact = () => {
           </form>
         </div>
         <div className="contact-icons">
-          <a target="_blank" href="https://github.com/nrob92?tab=repositories">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/nrob92?tab=repositories"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/nicholas-robinson-86608a231/"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.instagram.com/nicholasrobinson_/"
           >
             <FontAwesomeIcon icon={faInstagram} />

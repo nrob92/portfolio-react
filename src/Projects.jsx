@@ -33,7 +33,11 @@ const Projects = () => {
         </p>
         <hr />
 
-        <a target="_blank" href="https://inthemoney.netlify.app">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://inthemoney.netlify.app"
+        >
           <button>View Here</button>
         </a>
       </div>
@@ -66,7 +70,11 @@ const Projects = () => {
         </p>
 
         <hr />
-        <a target="_blank" href="https://contactapiform92.netlify.app">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://contactapiform92.netlify.app"
+        >
           <button>View Here</button>
         </a>
       </div>

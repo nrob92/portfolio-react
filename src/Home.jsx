@@ -7,6 +7,7 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import "../src/css/home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -55,11 +56,11 @@ const Home = () => {
                 occasionally designing) exceptional digital experiences.
               </div>
             </p>
-            <a href="contact">
+            <Link to={"/contact"}>
               <button className="animate__animated animate__bounceInDown">
                 Contact Me
               </button>
-            </a>
+            </Link>
           </div>
           <div className="icons">
             <div className="animate__animated animate__backInRight">

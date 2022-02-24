@@ -19,6 +19,7 @@ const Footer = () => {
       <div>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://github.com/nrob92?tab=repositories"
           className="footer-a"
         >
