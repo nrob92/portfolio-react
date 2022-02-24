@@ -2,8 +2,8 @@ import React from "react";
 import "../src/css/body.css";
 import fastitm from "../src/videos/fastitm.mp4";
 import fastContact from "../src/videos/fastContact.mov";
-import posterContact from "../src/css/posterContact.png";
-import posterItm from "../src/css/posterItm.png";
+import posterContact from "../src/img/posterContact.png";
+import posterItm from "../src/img/posterItm.png";
 
 const Projects = () => {
   return (
