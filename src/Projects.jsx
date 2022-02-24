@@ -2,6 +2,8 @@ import React from "react";
 import "../src/css/body.css";
 import fastitm from "../src/videos/fastitm.mp4";
 import fastContact from "../src/videos/fastContact.mov";
+import posterContact from "../src/css/posterContact.png";
+import posterItm from "../src/css/posterItm.png";
 
 const Projects = () => {
   return (
@@ -13,6 +15,7 @@ const Projects = () => {
         <div className="video-container">
           <video
             id="video"
+            poster={posterItm}
             onMouseEnter={(e) => e.target.play()}
             onMouseOut={(e) => e.target.pause()}
             controls="true"
@@ -49,6 +52,7 @@ const Projects = () => {
         <div className="video-container">
           <video
             id="video"
+            poster={posterContact}
             onMouseEnter={(e) => e.target.play()}
             onMouseOut={(e) => e.target.pause()}
             controls="true"
