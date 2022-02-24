@@ -15,6 +15,7 @@ const Projects = () => {
             id="video"
             onMouseEnter={(e) => e.target.play()}
             onMouseOut={(e) => e.target.pause()}
+            controls="true"
           >
             {" "}
             <source src={fastitm} type="video/mp4" />
@@ -46,7 +47,12 @@ const Projects = () => {
         <p className="project-title"> Contact Form API.</p>
         <p>Hover to Play</p>
         <div className="video-container">
-          <video id="video" playsinline autoplay loop muted controls="true">
+          <video
+            id="video"
+            onMouseEnter={(e) => e.target.play()}
+            onMouseOut={(e) => e.target.pause()}
+            controls="true"
+          >
             {" "}
             <source src={fastContact} type="video/mp4" />
             Hover to play
