@@ -33,13 +33,13 @@ const Projects = () => {
         </p>
         <hr />
 
-        <a target="blank" href="inthemoney.netlify.app">
+        <a target="_blank" href="https://inthemoney.netlify.app">
           <button>View Here</button>
         </a>
       </div>
       <div className="projects">
         <h3>Project Two</h3>
-        <p className="project-title"> Project two</p>
+        <p className="project-title"> Contact Form API.</p>
         <p>Hover to Play</p>
         <div className="video-container">
           <video
@@ -54,7 +54,11 @@ const Projects = () => {
         </div>
 
         <p>
+          <br />
+          <br />
           Simple Contact API form.
+          <br />
+          Rest API.
           <br />
           GET POST PUT DELETE.
           <br />
@@ -62,7 +66,9 @@ const Projects = () => {
         </p>
 
         <hr />
-        <button>View Here</button>
+        <a target="_blank" href="https://contactapiform92.netlify.app">
+          <button>View Here</button>
+        </a>
       </div>
     </div>
   );

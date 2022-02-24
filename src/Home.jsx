@@ -55,9 +55,11 @@ const Home = () => {
                 occasionally designing) exceptional digital experiences.
               </div>
             </p>
-            <button className="animate__animated animate__bounceInDown">
-              Contact Me
-            </button>
+            <a href="contact">
+              <button className="animate__animated animate__bounceInDown">
+                Contact Me
+              </button>
+            </a>
           </div>
           <div className="icons">
             <div className="animate__animated animate__backInRight">
