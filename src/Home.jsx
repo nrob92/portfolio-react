@@ -52,8 +52,8 @@ const Home = () => {
               </div>
               <br />
               <div className="home-bio">
-                I'm a Full Stack Software Engineer specializing in building (and
-                occasionally designing) exceptional digital experiences.
+                I'm a Full Stack Software Engineer specializing in building and
+                designing exceptional digital experiences.
               </div>
             </p>
             <Link to={"/contact"}>
