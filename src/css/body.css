@@ -17,6 +17,8 @@
   max-width: 900px;
   letter-spacing: 0;
   margin: auto;
+  padding: 0 20px;
+
   align-items: center;
 }
 
@@ -274,7 +276,7 @@ video:hover {
 
 @media screen and (max-width: 780px) {
   .projects {
-    width: 330px;
+    width: 250px;
   }
 
   .projects p {
@@ -282,19 +284,19 @@ video:hover {
   }
 
   .video-container {
-    height: 245px;
+    height: 175px;
   }
   video {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 225px;
   }
   video:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 275px;
     margin-top: 0;
   }
   .about-me-container {
@@ -311,5 +313,8 @@ video:hover {
 
   .contact-container h1 {
     margin-top: 0;
+  }
+  .footer-section {
+    padding: 70px 30px;
   }
 }

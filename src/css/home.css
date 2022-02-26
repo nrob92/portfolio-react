@@ -1,6 +1,7 @@
 .home-container {
   height: 100vh;
 }
+/* Nav */
 nav {
   display: flex;
   justify-content: center;
@@ -64,6 +65,42 @@ nav {
   margin: auto;
   height: 100%;
   max-width: 900px;
+}
+
+.icons-absolute {
+  z-index: 99999;
+  position: fixed;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.icons-absolute a {
+  position: relative;
+  font-size: 30px;
+  left: 15px;
+  transition: 0.4s ease;
+}
+
+.icons-absolute a:hover {
+  color: #64ffda;
+}
+.icons-absolute div:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.icons-absolute div:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+.icons-absolute div {
+  width: 30px;
+  height: 10px;
+  position: relative;
+  border-top: 1px solid rgba(100, 255, 218, 0.5);
+  border-right: 1px solid rgba(100, 255, 218, 0.5);
 }
 
 .main-bio {
@@ -137,6 +174,10 @@ nav {
 }
 
 @media screen and (max-width: 780px) {
+  .main-body {
+    margin-left: 55px;
+  }
+
   .nav-links {
     display: none;
   }
@@ -205,6 +246,6 @@ nav {
   }
 
   .home-container {
-    height: 80vh;
+    height: 90vh;
   }
 }

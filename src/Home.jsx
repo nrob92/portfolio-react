@@ -9,6 +9,12 @@ import {
 import "../src/css/home.css";
 import { Link } from "react-router-dom";
 
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
 
@@ -33,10 +39,37 @@ const Home = () => {
 
   return (
     <div className="home-container">
+      <div className="icons-absolute">
+        <div className="animate__animated animate__backInLeft">
+          <a target="_blank" href="https://github.com/nrob92">
+            {" "}
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
+
+        <div className="animate__animated animate__backInLeft">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/nicholasrobinson_/"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+        </div>
+
+        <div className="animate__animated animate__backInLeft">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/nicholas-robinson-86608a231/"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </div>
+      </div>
       <div
         className="main-body"
         style={{ transform: `translatex(-${offsetY * 1.5}px)` }}
       >
+        {" "}
         <div className="main-bio">
           <div className="main-bio-text">
             <h3 className="animate__animated animate__bounceInDown">

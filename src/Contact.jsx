@@ -42,7 +42,7 @@ const Contact = () => {
 
       <div className="contact-container">
         <h1>Contact Me</h1>
-        <div className="contact-form">
+        <div className="animate__animated animate__zoomInDown contact-form">
           <form action="https://formsubmit.co/nrob42@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Name" required />
             <input
