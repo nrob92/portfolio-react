@@ -67,7 +67,7 @@ const Home = () => {
       </div>
       <div
         className="main-body"
-        style={{ transform: `translatex(-${offsetY * 1.5}px)` }}
+        style={{ transform: `translatex(-${offsetY * 2}px)` }}
       >
         {" "}
         <div className="main-bio">
