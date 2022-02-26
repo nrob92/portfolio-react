@@ -179,7 +179,7 @@ video:hover {
 
 .contact-container {
   height: 100vh;
-  margin: 20px;
+  margin: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,7 +196,6 @@ video:hover {
   padding: 40px 0;
   margin: 20px;
   border-radius: 5px;
-
   border: 1px solid rgba(100, 255, 218, 0.4);
   background-color: #112240;
 }
@@ -309,6 +308,9 @@ video:hover {
 
   .contact-container {
     height: 90vh;
+  }
+  .contact-form {
+    padding: 0 20px;
   }
 
   .contact-container h1 {
