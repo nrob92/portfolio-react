@@ -41,7 +41,7 @@ const Home = () => {
     <div className="home-container">
       <div className="icons-absolute">
         <div className="animate__animated animate__backInLeft">
-          <a target="_blank" href="https://github.com/nrob92">
+          <a target="_blank" rel="noreferrer" href="https://github.com/nrob92">
             {" "}
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -50,6 +50,7 @@ const Home = () => {
         <div className="animate__animated animate__backInLeft">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.instagram.com/nicholasrobinson_/"
           >
             <FontAwesomeIcon icon={faInstagram} />
@@ -59,6 +60,7 @@ const Home = () => {
         <div className="animate__animated animate__backInLeft">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/nicholas-robinson-86608a231/"
           >
             <FontAwesomeIcon icon={faLinkedin} />
