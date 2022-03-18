@@ -10,9 +10,9 @@ const About = () => {
           Hello My name is Nick Robinson. I am a Full Stack Web Developer with a
           passion for coding.
           <br />
-          <br />I started coding back in December 2020. I was self taught until
-          september of 2021 when I decided to enroll in 4Geeks academy Bootcamp.
-          Now, I'm currently freelancing and open for hire.
+          <br /> A passionate Full Stack Web Developer having an experience of
+          building Web and Mobile applications with JavaScript / React / NodeJS
+          and other libraries and frameworks.
         </p>
         <br />
         <p>Here are some technologies I've been using lately:</p>
@@ -21,11 +21,13 @@ const About = () => {
             <span>React</span>
             <span>JavaScript</span>
             <span>Node.Js</span>
+            <span>MongoDB</span>
           </div>
           <div className="technologies-2">
             <span>Firebase</span>
             <span>Rest API</span>
-            <span>WordPress</span>
+            <span>GraphQL</span>
+            <span>Express</span>
           </div>
         </div>
       </div>

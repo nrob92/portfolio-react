@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import portfolio from "../src/img/portfolio.pdf";
+import NickRobinsonResume from "../src/img/NickRobinsonResume.pdf";
 
 import "../src/css/home.css";
 
@@ -13,7 +13,7 @@ const Nav = () => {
           <a href="#about">About Me</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-          <a href={portfolio} className="resume">
+          <a target="_blank" href={NickRobinsonResume} className="resume">
             Resume
           </a>
         </ul>
@@ -32,7 +32,7 @@ const Nav = () => {
         <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a href={portfolio}>Resume</a>
+        <a href={NickRobinsonResume}>Resume</a>
       </ul>
     </div>
   );

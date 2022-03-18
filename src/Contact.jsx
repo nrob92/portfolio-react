@@ -8,7 +8,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
-import portfolio from "../src/img/portfolio.pdf";
+import NickRobinsonResume from "../src/img/NickRobinsonResume.pdf";
 
 const Contact = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -19,7 +19,7 @@ const Contact = () => {
         <nav className="navbar">
           <ul className="nav-links">
             <Link to={"/"}>Home</Link>
-            <a href={portfolio} className="resume">
+            <a href={NickRobinsonResume} className="resume">
               Resume
             </a>
           </ul>
@@ -36,7 +36,7 @@ const Contact = () => {
           className={isMobile ? "nav-links-mobile" : "nav-links-deactive"}
         >
           <Link to={"/"}>Home</Link>
-          <a href={portfolio}>Resume</a>
+          <a href={NickRobinsonResume}>Resume</a>
         </ul>
       </div>
 
