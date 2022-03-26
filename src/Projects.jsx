@@ -4,6 +4,8 @@ import fastitm from "../src/videos/fastitm.mp4";
 import fastContact from "../src/videos/fastContact.mov";
 import posterContact from "../src/img/posterContact.png";
 import posterItm from "../src/img/posterItm.png";
+import weatherApp from "../src/videos/weather-app.mov";
+import posterWeather from "../src/img/posterWeather.png";
 
 const Projects = () => {
   return (
@@ -80,6 +82,45 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
           href="https://contactapiform92.netlify.app"
+        >
+          <button>View Here</button>
+        </a>
+      </div>
+      <div className="projects">
+        <h3>Project Three</h3>
+        <p className="project-title"> Weater App</p>
+        <p>Hover to Play</p>
+        <div className="video-container">
+          <video
+            id="video"
+            poster={posterWeather}
+            onMouseEnter={(e) => e.target.play()}
+            onMouseOut={(e) => e.target.pause()}
+            controls="true"
+          >
+            {" "}
+            <source src={weatherApp} type="video/mp4" />
+            Hover to play
+          </video>
+        </div>
+
+        <p>
+          <br />
+          <br />
+          Weather API App
+          <br />
+          Rest API.
+          <br />
+          Uses Your Location
+          <br />
+          Responsive UI/UX.
+        </p>
+
+        <hr />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://weather-api-app-92.netlify.app/"
         >
           <button>View Here</button>
         </a>
