@@ -18,7 +18,6 @@
   letter-spacing: 0;
   margin: auto;
   padding: 0 20px;
-
   align-items: center;
 }
 
@@ -53,6 +52,7 @@
 .section-body h1 {
   text-align: center;
 }
+
 .technologies {
   margin-top: 10px;
   width: 200px;
@@ -62,13 +62,16 @@
   color: #64ffda;
   font-family: "Fira Code", monospace;
 }
+
 .technologies span {
   margin: 3px;
 }
+
 .technologies-1 {
   display: flex;
   flex-direction: column;
 }
+
 .technologies-2 {
   display: flex;
   flex-direction: column;
@@ -78,15 +81,14 @@
 .projects-container {
   margin: auto;
   display: flex;
-
   justify-content: center;
-
   flex-wrap: wrap;
 }
 
 .projects-h2 {
   text-align: center;
 }
+
 .projects {
   text-align: center;
   margin: 30px;
@@ -96,11 +98,13 @@
   background-color: #112240;
   width: 400px;
 }
+
 .projects h3 {
   margin-top: 0;
   margin-bottom: 12px;
   font-size: large;
 }
+
 .project-title {
   color: #64ffda;
   font-family: "Fira Code", monospace;
@@ -111,19 +115,23 @@
   margin: auto;
   font-size: 12px;
 }
+
 .projects hr {
   margin: 10px;
 }
+
 video::-webkit-media-controls {
   display: none !important;
   cursor: pointer;
 }
+
 .video-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 275px;
 }
+
 video {
   border-radius: 5px;
   width: 325px;
@@ -134,12 +142,27 @@ video {
   justify-content: center;
   align-items: center;
 }
+
 video:hover {
   position: absolute;
   width: 400px;
 }
+
 .projects hr {
   margin: 15px;
+}
+
+.seedoilapp {
+  margin-top: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  width: 300px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.seedoilapp:hover {
+  width: 350px;
 }
 
 /* Footer Section */
@@ -155,6 +178,7 @@ video:hover {
   max-width: 600px;
   line-height: 20px;
 }
+
 .footer-a {
   display: flex;
   align-items: center;
@@ -167,6 +191,7 @@ video:hover {
   cursor: pointer;
   transition: 0.4s ease;
 }
+
 .footer-a:hover {
   color: #64ffda;
 }
@@ -186,6 +211,7 @@ video:hover {
   align-items: center;
   margin-top: 0;
 }
+
 .contact-container h1 {
   text-align: center;
 }
@@ -248,6 +274,7 @@ video:hover {
   cursor: pointer;
   transition: 0.4s ease;
 }
+
 .contact-icons a:hover {
   color: #64ffda;
 }
@@ -257,6 +284,7 @@ video:hover {
   margin: 5px;
   transition: 0.4s ease;
 }
+
 .contact-icons p:hover {
   color: #64ffda;
 }
@@ -285,12 +313,22 @@ video:hover {
   .video-container {
     height: 175px;
   }
+
+  .seedoilapp {
+    height: 170px;
+  }
+
+  .seedoilapp:hover {
+    scale: 1.10;
+  }
+
   video {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 225px;
   }
+
   video:hover {
     display: flex;
     justify-content: center;
@@ -298,6 +336,7 @@ video:hover {
     width: 275px;
     margin-top: 0;
   }
+
   .about-me-container {
     text-align: center;
   }
@@ -309,6 +348,7 @@ video:hover {
   .contact-container {
     height: 90vh;
   }
+
   .contact-form {
     padding: 0 20px;
   }
@@ -316,6 +356,7 @@ video:hover {
   .contact-container h1 {
     margin-top: 0;
   }
+
   .footer-section {
     padding: 70px 30px;
   }

@@ -10,9 +10,10 @@ const About = () => {
           Hello My name is Nick Robinson. I am a Full Stack Web Developer with a
           passion for coding.
           <br />
-          <br /> A passionate Full Stack Web Developer having an experience of
-          building Web and Mobile applications with JavaScript / React / NodeJS
-          and other libraries and frameworks.
+          <br />
+          Passionate Full Stack Web Developer experienced in building dynamic
+          Web and Mobile applications using JavaScript, React, NodeJS, and other
+          cutting-edge technologies.
         </p>
         <br />
         <p>Here are some technologies I've been using lately:</p>
